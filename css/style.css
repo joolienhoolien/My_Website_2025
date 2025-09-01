@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Flytrap";
+  src: url("../Flytrap.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #08070e;
+  color: #ec9e01;
+}
+
 /* SPLASH */
 .splash {
   /* background-color: #aaa; */
@@ -10,6 +22,8 @@
 }
 
 .splash--1 {
+  color: #ec9e01;
+  font-family: "Flytrap";
   font-size: 7em;
   justify-self: end;
   align-self: start;
@@ -18,12 +32,14 @@
 }
 
 .splash--2 {
+  font-family: "Flytrap";
+  color: #ec9e01;
   font-size: 1.6em;
   grid-column: 1;
   justify-self: end;
   align-self: start;
-  margin-top: -4em;
-  margin-right: 1em;
+  margin-top: -3.5em;
+  margin-right: 16em;
   /* background-color: orange; */
 }
 
