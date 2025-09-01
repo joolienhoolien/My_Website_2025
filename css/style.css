@@ -1,0 +1,38 @@
+/* SPLASH */
+.splash {
+  background-color: #aaa;
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  grid-template-rows: 4fr 1fr;
+  column-gap: 20px;
+  row-gap: 0;
+  margin: 5em;
+}
+
+.splash--1 {
+  font-size: 9em;
+  justify-self: end;
+  align-self: start;
+  text-align: end;
+  /* background-color: lightblue; */
+}
+
+.splash--2 {
+  font-size: 2em;
+  grid-column: 1;
+  justify-self: end;
+  align-self: start;
+  margin-top: -4em;
+  margin-right: 1em;
+  /* background-color: orange; */
+}
+
+.splash--3 {
+  font-size: 1.5em;
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 5.3em;
+  /* background-color: purple; */
+  align-self: start;
+  text-align: start;
+}
